@@ -4,6 +4,12 @@
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </div>
+<!-- ///////////DEbounce time code ///////////-->
+<!-- <div class="container">
+  <form [formGroup]="searchForm">
+    <label for=""> Search Value:</label> <input type="text" formControlName="searchvalue" style="margin-top: 10px; margin-right: 10px;" placeholder="Enter text to search" (keyup)="search()">
+  </form>
+  </div> -->
 
 <div class="spinner" *ngIf="searchLoad">
     <mat-progress-spinner  [mode]="'indeterminate'" ></mat-progress-spinner>
