@@ -1,0 +1,19 @@
+// tr td:first-child:before{
+//         counter-increment: Serial;
+//         content: counter(Serial);
+// }
+.spinner{
+    // border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.container{
+    background-color: lightblue;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
